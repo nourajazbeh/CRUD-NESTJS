@@ -1,8 +1,8 @@
 import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import { CrudModule } from './crud/crud.module';
-import { CrudController } from './crud/crud.controller';
+import { CrudModule } from './car/car.module';
+import { CrudController } from './car/car.controller';
 
 @Module({
   imports: [CrudModule],
